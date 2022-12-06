@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #000000; /* Text colour */
+  /* background-color: #c0c0c0; Page colour */
+}
+
+#container {
+  width: 100%;
+  /* max-width: 900px; How to Ensure the width does not go beyond this value */
+  height: 100vh; /* Make the height the full screen or viewing size*/
+  margin: 0 auto; /* Align the page in the centre - "auto" makes the left and right margins center the container */
+}
+
+.topics {
+  margin: 2rem;
+  padding-top: 6rem;
+  text-align: justify;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: yellow;
+  align-items: baseline;
+}
+
+#aboutUsTextbox {
+
+}
+
+#aboutUsAwards {
+
+}
+
+#aboutUsAwards img {
+  transition: transform 0.7s ease-in-out;
+}
+#aboutUsAwards img:hover {
+  transform: rotate(360deg);
+}
+
+#homeName,
+h4,
+th {
+  color: #1f75fe;
+  font-weight: bold;
+  /*Primary color: #0275d8 this is what the Bootstrap primary colour is*/
+}
+
+table thead {
+  background-color: black;
+}
+table th {
+  color: white;
+  text-align: left;
+}
+table td {
+  text-align: left;
+}
+
+#addBorder {
+  border: 0.5em;
+  border-style: solid;
+  border-color: blue;
+}
+
+.form-label,
+h5 {
+  font-weight: bold;
+}
+
+#contactUs h5 {
+  color: #1f75fe;
+}
+
+.list-group {
+  max-width: 30em;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.individualCard {
+  border-color: #1f75fe;
+}
+.individualCard .card-header {
+  background-color: #1f75fe;
+}
+.studentCard {
+  border-color: #262626;
+}
+.studentCard .card-header {
+  background-color: #262626;
+}
+.coupleCard {
+  border-color: #00b74a;
+}
+.coupleCard .card-header {
+  background-color: #00b74a;
+}
+.seniorCard {
+  border-color: #ffa900;
+}
+.seniorCard .card-header {
+  background-color: #ffa900;
+}
+
+.card-header {
+  color: white;
+  font-weight: bold;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+/* Only for the classes section. Otherwise these styles will overwrite main navigation navs*/
+#classes .nav-link {
+  color: blue;
+}
+
+#classes .nav-link:hover {
+  color: yellowgreen;
+}
+#classes .nav-link.active {
+  font-weight: bold;
+  color: black !important;
+}
+
+#nav-tab {
+  text-align: center;
+}
+
+#classes button {
+  margin-right: 5em;
+}
